@@ -31,3 +31,4 @@
 
 fbq('init', '1130280741869304'); // Substitua 'YOUR_PIXEL_ID' pelo seu ID real do Pixel.
 fbq('track', 'PageView');
+fbq('track', 'ViewContent');
