@@ -108,6 +108,18 @@ body {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
 
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 @media (max-width: 768px) {
   .container {
       padding: 10px;
@@ -115,5 +127,9 @@ body {
   
   .headline {
       font-size: 1.8em;
+  }
+
+  .cta-button {
+    animation: pulsate 1s infinite;
   }
 }
